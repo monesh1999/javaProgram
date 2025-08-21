@@ -36,10 +36,19 @@ public class controlStatement {
 			System.out.print("Y is greatest");
 			
 		}
-		else {
-			System.out.print("Z is greatest");
+		else if(z>x && z>y)  {
+			System.out.println("Z is greatest");
 			
 		}
+//		int a12 = 0;
+//		int i=0;
+//		for(;; i++) {
+//		if(true) {
+//			a12++;
+//			System.out.println("hello welcome "+a12);
+//		}
+//		System.out.println("loading....");
+//		}
 	}
 
 }
