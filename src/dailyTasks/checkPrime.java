@@ -6,7 +6,7 @@ public class checkPrime {
 	
 	
 	
-	  static void checkPrime(int num) {
+	  static void checkPrime1(int num) {
 	        if (num <= 1) {
 	            System.out.println(num + " is Not Prime");
 	        }
@@ -43,7 +43,7 @@ public class checkPrime {
 	        if (isPrime) 
 	            System.out.println(num + " is Prime");
 
-	        checkPrime(num);
+	        checkPrime1(num);
 	        obj.close();
 
 	}

@@ -27,6 +27,9 @@ public class PrintNumberWithoutIncrementOpra {
         }
 		
 		printNumbers(0, num);
+		
+
+		obj.close();
 
 
 	}

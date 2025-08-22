@@ -18,6 +18,8 @@ public class StrToNumCon {
 		System.out.println(floatvalue);
 		System.out.println(doublevalue);
 		
+		obj.close();
+		
 		
 
 	}
