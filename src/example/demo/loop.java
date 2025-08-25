@@ -11,7 +11,7 @@ public class loop {
 //		}
 		int sum =0;
 		while(i<10){ 
-			//infinity loop without condition
+			
 			sum+=i;
 			i++;
 			System.out.println(i +" "+sum);
@@ -19,7 +19,14 @@ public class loop {
 		System.out.println(sum);
 		
 //	    System.out.println(sum);
-		
+		while(true) {
+			i++;
+			System.out.println("the number is :"+i);
+			if(i==5775350) {
+				break;
+			}
+			
+		}
 	}
 
 }

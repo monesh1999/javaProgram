@@ -15,6 +15,9 @@ public class CheackPosNegOr0 {
 			return "zero";
 		}
 	}
+	static void mmm() {
+		System.out.println("hello");
+	}
 	
 	
 
