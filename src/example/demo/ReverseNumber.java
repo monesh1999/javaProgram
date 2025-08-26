@@ -15,15 +15,18 @@ public class ReverseNumber {
 //		}
 		
 		
-		int sum = 0,j=0;  
-		while(j<=10) {
-			sum+=j;
-			j+=2;
-		}
-		System.out.println("sum of odd nums"+sum);
+//		int sum = 0,j=0;  
+//		while(j<=10) {
+//			sum+=j;
+//			j+=2;
+//		}
+//		System.out.println("sum of odd nums"+sum);
+//		
 		
+		for (int i = 100; i >= 50; i=i/2) {   // reverse the order 
+          System.out.println(i);
+      }
 		
-
 	}
 
 }
