@@ -1,4 +1,4 @@
-package example.demo;
+package example.study;
 enum day{mon,tues,wed,fri};
 public class EnumSwitch {
 

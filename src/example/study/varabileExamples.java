@@ -1,4 +1,4 @@
-package example.demo;
+package example.study;
 
 public class varabileExamples {
 	int age1 =5; //instance variable

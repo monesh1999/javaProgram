@@ -1,11 +1,11 @@
-package example.demo;
+package example.study;
 
 import java.util.Scanner;
 
 public class SecondLargeFind {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner obj = new Scanner(System.in);
 		System.out.println("Enter the first number:");
 		int a=obj.nextInt();

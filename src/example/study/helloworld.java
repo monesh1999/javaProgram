@@ -1,4 +1,4 @@
-package example.demo;
+package example.study;
 
 public final class helloworld {
 
