@@ -24,8 +24,9 @@ public class SecondLargeFind {
 		 }
 		 if(c>lar) {
 			 sec=lar;
+			 lar =c;
 		 }
-		 else {
+		 else if(c>sec) {
 			 sec=c;
 		 }
 		 System.out.println(sec);
