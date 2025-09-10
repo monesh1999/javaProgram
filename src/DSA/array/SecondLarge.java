@@ -37,7 +37,9 @@ public class SecondLarge {
 			System.out.println("no second element");
 		}else {
 			System.out.println("second large elements :"+secLar);
+			
 		}
+		
 		obj.close();
 
 	}
