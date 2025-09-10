@@ -35,6 +35,7 @@ public class frequencyCount {
 			
 			System.out.println(arr[i]+"---> "+count+ (count>1?" times":" time"));
 		}
+		obj.close();
 
 	}
 

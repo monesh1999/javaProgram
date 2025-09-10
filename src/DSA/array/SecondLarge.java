@@ -38,7 +38,7 @@ public class SecondLarge {
 		}else {
 			System.out.println("second large elements :"+secLar);
 		}
-		
+		obj.close();
 
 	}
 

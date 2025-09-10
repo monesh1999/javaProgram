@@ -29,7 +29,7 @@ public class OodandEvenInArray {
 		
 		System.out.println("even array Sum : "+evenSum+" , odd array sum : "+oddSum);
 		
-	
+	obj.close();
 
 	}
 
