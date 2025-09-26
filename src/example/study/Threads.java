@@ -6,7 +6,9 @@ package example.study;
  * 
  * 
  * it can creating using or implement using 1,2
- * init() ,start(),stop(),service --run()
+ * init() ,start(),stop(),service --run(),destroy(),sleep(),wait()
+ * notify(),notifyall()
+ * 
  * thread -- task (timebound ) ---sleep(ms),wait(),await()
  * how thread is imlemented
  * 1.extends thread (class)
@@ -33,12 +35,18 @@ public class Threads extends Thread {
 	    {
 	      	String str = "Thread is Running Successfully";
 	        System.out.println(str);
+	        try {
+	        	Thread.sleep(5000);
+	        	System.out.println("world");
+	        }catch(Exception e) {
+	        	System.out.println(e);
+	        }System.out.println("hello");
 	    }
 
 	public static void main(String[] args) {
 		
 		Threads t = new Threads();
-		
+		t.run();
 
 	}
 
